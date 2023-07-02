@@ -1,0 +1,987 @@
+<<<<<<< HEAD
+body {
+ margin: 0px;
+ 
+}
+body {
+ margin: 0px;
+ 
+}
+
+  /* Style for the navigation bar */
+  .navbar {
+    background-color: #16242e;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  /* Style for the logo */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 120px;
+  }
+  
+  /* Style for the search bar */
+  .search-bar {
+    width: 463px;
+    height: 45px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    border-color: 008AEE;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    
+  }
+  
+  /* Style for social media logos */
+  .social-media {
+    display: flex;
+    align-items: center;
+    margin-right: 120px;
+  }
+  
+  .social-media img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+
+
+    
+
+  }
+
+.center-menu {
+    text-align: center;
+    background-color:#1c2d3a;
+    padding: 8px;
+    line-height: 26px;
+    font-size: 18px;
+
+ 
+}
+
+.center-menu ul {
+    list-style-type: none;
+    padding: 0;
+    background-color:#1c2d3a;
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+
+
+
+}
+
+.center-menu li {
+    display: inline-block;
+    margin: 0 10px;
+    
+}
+
+.center-menu a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+
+}
+
+/* Example icon styles (using Font Awesome) */
+.center-menu i {
+    font-size: 18px;
+
+  
+}
+li:nth-child(6n +1){
+  background: blue;
+  border-radius: 15px;
+  width: 150px;
+
+}
+
+li:nth-child(6n +2){
+  background: Orange;
+  border-radius: 15px;
+  width: 150px;
+}
+
+li:nth-child(6n +3){
+  background: #2CCACA;
+  border-radius: 15px;
+  width: 150px;
+}
+
+li:nth-child(6n +4){
+  background: green;
+  border-radius: 15px;
+  width: 150px;
+}
+
+li:nth-child(6n +5){
+  background: #BD5FE9;
+  border-radius: 15px;
+  width: 150px;
+}
+
+li:nth-child(6n +6){
+  background: #EE4700;
+  border-radius: 15px;
+  width: 150px;
+}
+
+.flex{
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .logo {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  .search-bar {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .social-media {
+    margin-right: 20px;
+  }
+
+  .center-menu {
+    margin-left: 20px;
+  }
+
+  .center-menu ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .center-menu li {
+    margin: 5px;
+  }
+
+  .right-icons {
+    display: none;
+  }
+}
+
+
+.align {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; /* Adjust the padding value as per your preference */
+  max-width: 1440px; /* Adjust the max-width value as per your preference */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.align p {
+  color: #333;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.h1{
+margin-right: 10px;  
+  
+}
+
+.green-button{
+ 
+  border-radius: 20px;
+  cursor: pointer;
+  background: #33BB5A;
+  height: 40px;
+  width: 172px;
+  border: none;
+  color: white;
+ 
+}
+
+.underh1{
+  position: absolute;
+  padding: 0 125px;
+  max-width: 1440px;
+  margin: 0 auto;
+
+}
+
+/* FILTER MENU */
+.filter-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  box-shadow: 0 2px 4px rgba(.2, 0.2, 0.2, 0.2);
+  padding: 20px;
+}
+
+.filter-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+
+}
+
+.filter-option {
+  margin: 0 5px;
+  
+}
+
+label {
+  margin-right: 5px;
+}
+
+select {
+  width: 347px;
+  height: 45px;
+  padding: 10px;
+  border-radius: 25px;
+  border-color: #008AEE;
+}
+
+.apply-button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  width: 347px;
+  height: 45px;
+  background: #008aee;  
+  border-color: transparent;
+}
+
+/** Left Column **/
+#leftColumn {
+  float:left;
+  margin:10px;
+  padding:0;
+  width:160px;
+  font-size:.9em;
+  
+  }
+  
+  
+  #leftColumn p {
+  padding:10px;
+  background-color: red;
+  color: #fff;
+  }
+  
+  .blue-button{
+  border-radius: 25px;
+  width: 237px;
+  height: 45px;
+  background: #008aee;  
+  border-color: transparent;
+  color: white;
+  }
+
+
+
+  #leftColumn ul left-menu {
+  margin:0 0 0 0;
+  list-style:none;
+  }
+  
+  #leftColumn li {
+  margin:4px 0 5px 10px;
+  }
+  
+  #leftColumn li a {
+  text-decoration:underline;
+  }
+  
+  #leftColumn li a:hover{
+  text-decoration:none;
+  }
+
+
+
+  .add {
+    width: 195px;
+    height: 758px;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .add img {
+    width: 100%;
+    max-height: 50%;
+    object-fit: cover;
+  }
+  
+  .add p {
+    text-align: center;
+    font-size: 18px;
+    background-color: red;
+
+  }
+  
+  .add button {
+    width: 120px;
+    height: 40px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+
+
+  /* Info-parts */
+ .card {
+  width: 436px;
+  height: 609px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 50px; /* Add this line to push cards to the right */
+}
+
+.container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end; /* Change to 'justify-content: flex-end' to align cards to the right */
+  flex-wrap: wrap;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Change to 'justify-content: flex-end' to align cards to the right */
+}
+
+@media (max-width: 768px) {
+  .cards-wrapper {
+    flex-basis: 100%; /* Change 'grid-template-columns' to 'flex-basis' */
+  }
+}
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .big-image {
+    width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+  }
+  
+  .small-images {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  
+  .small-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .divider {
+    margin: 1px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+    width: 450px;
+  }
+  
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: auto;
+  }
+  
+  .description {
+    margin-bottom: 0px;
+  }
+  
+  .description-grid {
+    display: flex;
+  }
+  
+  .left-column {
+    flex: 1;
+  }
+  
+  .right-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  .description-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 0px;
+    margin: auto;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Adjust margin-top value as needed */
+    width: 100%; /* Add this line to make the buttons occupy the full width */
+  }
+  
+  .small-buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: white;
+    background: #eaf8ee;
+    width: 100%; /* Add this line to make the buttons occupy the full width */
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .big-button {
+    flex-basis: 100%;
+    width: 100%;
+  }
+  
+  .small-buttons {
+    flex: 1;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+
+
+
+
+
+=======
+body {
+ margin: 0px;
+ 
+}
+body {
+ margin: 0px;
+ 
+}
+
+  /* Style for the navigation bar */
+  .navbar {
+    background-color: #16242e;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+  
+  /* Style for the logo */
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: 120px;
+  }
+  
+  /* Style for the search bar */
+  .search-bar {
+    width: 463px;
+    height: 45px;
+    background-color: transparent;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    border-color: 008AEE;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    
+  }
+  
+  /* Style for social media logos */
+  .social-media {
+    display: flex;
+    align-items: center;
+    margin-right: 120px;
+  }
+  
+  .social-media img {
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+
+
+    
+
+  }
+
+.center-menu {
+    text-align: center;
+    background-color:#1c2d3a;
+    padding: 8px;
+    line-height: 26px;
+    font-size: 18px;
+
+ 
+}
+
+.center-menu ul {
+    list-style-type: none;
+    padding: 0;
+    background-color:#1c2d3a;
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+
+
+
+}
+
+.center-menu li {
+    display: inline-block;
+    margin: 0 10px;
+    
+}
+
+.center-menu a {
+    display: block;
+    text-decoration: none;
+    color: #000;
+
+}
+
+/* Example icon styles (using Font Awesome) */
+.center-menu i {
+    font-size: 18px;
+
+  
+}
+li:nth-child(6n +1){
+  background: blue;
+  border-radius: 15px;
+  width: 150px;
+
+}
+
+li:nth-child(6n +2){
+  background: Orange;
+  border-radius: 15px;
+  width: 150px;
+}
+
+li:nth-child(6n +3){
+  background: #2CCACA;
+  border-radius: 15px;
+  width: 150px;
+}
+
+li:nth-child(6n +4){
+  background: green;
+  border-radius: 15px;
+  width: 150px;
+}
+
+li:nth-child(6n +5){
+  background: #BD5FE9;
+  border-radius: 15px;
+  width: 150px;
+}
+
+li:nth-child(6n +6){
+  background: #EE4700;
+  border-radius: 15px;
+  width: 150px;
+}
+
+.flex{
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .logo {
+    margin-left: 20px;
+    margin-bottom: 10px;
+  }
+
+  .search-bar {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .social-media {
+    margin-right: 20px;
+  }
+
+  .center-menu {
+    margin-left: 20px;
+  }
+
+  .center-menu ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .center-menu li {
+    margin: 5px;
+  }
+
+  .right-icons {
+    display: none;
+  }
+}
+
+
+.align {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px; /* Adjust the padding value as per your preference */
+  max-width: 1440px; /* Adjust the max-width value as per your preference */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.align p {
+  color: #333;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+.h1{
+margin-right: 10px;  
+  
+}
+
+.green-button{
+ 
+  border-radius: 20px;
+  cursor: pointer;
+  background: #33BB5A;
+  height: 40px;
+  width: 172px;
+  border: none;
+  color: white;
+ 
+}
+
+.underh1{
+  position: absolute;
+  padding: 0 125px;
+  max-width: 1440px;
+  margin: 0 auto;
+
+}
+
+/* FILTER MENU */
+.filter-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+  box-shadow: 0 2px 4px rgba(.2, 0.2, 0.2, 0.2);
+  padding: 20px;
+}
+
+.filter-row {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+
+}
+
+.filter-option {
+  margin: 0 5px;
+  
+}
+
+label {
+  margin-right: 5px;
+}
+
+select {
+  width: 347px;
+  height: 45px;
+  padding: 10px;
+  border-radius: 25px;
+  border-color: #008AEE;
+}
+
+.apply-button {
+  margin-left: 10px;
+  padding: 10px 20px;
+  border-radius: 25px;
+  width: 347px;
+  height: 45px;
+  background: #008aee;  
+  border-color: transparent;
+}
+
+/** Left Column **/
+#leftColumn {
+  float:left;
+  margin:10px;
+  padding:0;
+  width:160px;
+  font-size:.9em;
+  
+  }
+  
+  
+  #leftColumn p {
+  padding:10px;
+  background-color: red;
+  color: #fff;
+  }
+  
+  .blue-button{
+  border-radius: 25px;
+  width: 237px;
+  height: 45px;
+  background: #008aee;  
+  border-color: transparent;
+  color: white;
+  }
+
+
+
+  #leftColumn ul left-menu {
+  margin:0 0 0 0;
+  list-style:none;
+  }
+  
+  #leftColumn li {
+  margin:4px 0 5px 10px;
+  }
+  
+  #leftColumn li a {
+  text-decoration:underline;
+  }
+  
+  #leftColumn li a:hover{
+  text-decoration:none;
+  }
+
+
+
+  .add {
+    width: 195px;
+    height: 758px;
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .add img {
+    width: 100%;
+    max-height: 50%;
+    object-fit: cover;
+  }
+  
+  .add p {
+    text-align: center;
+    font-size: 18px;
+    background-color: red;
+
+  }
+  
+  .add button {
+    width: 120px;
+    height: 40px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+
+
+
+  /* Info-parts */
+ .card {
+  width: 436px;
+  height: 609px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-right: 50px; /* Add this line to push cards to the right */
+}
+
+.container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: flex-end; /* Change to 'justify-content: flex-end' to align cards to the right */
+  flex-wrap: wrap;
+}
+
+.cards-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Change to 'justify-content: flex-end' to align cards to the right */
+}
+
+@media (max-width: 768px) {
+  .cards-wrapper {
+    flex-basis: 100%; /* Change 'grid-template-columns' to 'flex-basis' */
+  }
+}
+
+  .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+  
+  .big-image {
+    width: 100%;
+    max-height: 100%;
+    border-radius: 8px;
+  }
+  
+  .small-images {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+  }
+  
+  .small-image {
+    width: 80px;
+    height: 80px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .divider {
+    margin: 1px 0;
+    border: none;
+    border-top: 1px solid #ccc;
+    width: 450px;
+  }
+  
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: auto;
+  }
+  
+  .description {
+    margin-bottom: 0px;
+  }
+  
+  .description-grid {
+    display: flex;
+  }
+  
+  .left-column {
+    flex: 1;
+  }
+  
+  .right-column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+  }
+  
+  .description-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto auto;
+    gap: 0px;
+    margin: auto;
+  }
+  
+  .buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px; /* Adjust margin-top value as needed */
+    width: 100%; /* Add this line to make the buttons occupy the full width */
+  }
+  
+  .small-buttons-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    color: white;
+    background: #eaf8ee;
+    width: 100%; /* Add this line to make the buttons occupy the full width */
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+  .big-button {
+    flex-basis: 100%;
+    width: 100%;
+  }
+  
+  .small-buttons {
+    flex: 1;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+  }
+  
+
+
+
+
+
+>>>>>>> 77c8fa9 (initial commit)
